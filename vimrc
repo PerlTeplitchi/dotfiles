@@ -16,7 +16,8 @@ filetype plugin indent on
 set expandtab
 
 " 4 spaces when you press tabulation
-set softtabstop=4
+set tabstop=4
+set shiftwidth=4
 
 " Set basic indenting
 set autoindent
@@ -33,3 +34,13 @@ set colorcolumn=+1
 
 " Disable swapfiles
 set noswapfile
+
+" Highlight cursor line underneath the cursor horizontally.
+set cursorline
+
+" Highlight cursor line underneath the cursor vertically.
+set cursorcolumn
+
+" Display whitespace characters
+set list
+set listchars=tab:>─,eol:¬,trail:\ ,nbsp:¤
